@@ -1,0 +1,40 @@
+#carousel {
+    text-align: center;
+    overflow: hidden;
+    width: 50%;
+    margin-left: 25%;
+    position: relative;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    width: 6400px;
+
+}
+
+li {
+    width: auto;
+    height: auto;
+    list-style: none;
+    float: left;
+}
+
+.left-carousel-control {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.right-carousel-control {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.fa {
+    font-size: 25px;
+    color: #fff;
+}
